@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalStorage Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>LocalStorage Manager</h1>
+
+    <div class="card">
+      <h2>Current Website</h2>
+      <div id="current-site">Loading...</div>
+    </div>
+
+    <div class="card">
+      <h2>Storage Stats</h2>
+      <div id="storage-stats">Loading...</div>
+    </div>
+
+    <div class="actions">
+      <button id="export-btn" class="btn primary">Export LocalStorage</button>
+      <label for="import-file" class="btn secondary">Import LocalStorage</label>
+      <input type="file" id="import-file" accept=".json" hidden>
+      <button id="clear-btn" class="btn danger">Clear LocalStorage</button>
+    </div>
+
+    <div class="card">
+      <h2>LocalStorage Items</h2>
+      <div id="storage-items" class="storage-list">Loading...</div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
