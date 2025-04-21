@@ -9,18 +9,22 @@ LocalStorage Manager ("we", "our", or "us") is committed to protecting your priv
 ## Data Collection and Usage
 
 ### What Data We Access
+
 - The extension accesses localStorage data from websites you visit
 - This data is only accessed when you explicitly choose to export or import it
 - We do not collect or store any data on our servers
 
 ### How We Use Your Data
+
 - The extension only processes localStorage data locally on your device
 - When you export data, it is saved to your local device as a file
 - When you import data, it is only used to update the localStorage of the current website
 - We do not transmit, share, or store any of your data externally
 
 ### Permissions
+
 The extension requires the following permissions:
+
 - `activeTab`: To access the current tab's localStorage
 - `scripting`: To execute scripts on the current tab
 - `downloads`: To save exported data to your device
@@ -47,6 +51,7 @@ If you have any questions about this Privacy Policy, please contact us through t
 ## Your Rights
 
 You have the right to:
+
 - Access your data (through the export feature)
 - Delete your data (through the clear feature)
 - Control when and how your data is accessed
@@ -54,6 +59,7 @@ You have the right to:
 ## Compliance
 
 This extension complies with:
+
 - Chrome Web Store policies
 - General Data Protection Regulation (GDPR) principles
-- California Consumer Privacy Act (CCPA) requirements 
+- California Consumer Privacy Act (CCPA) requirements
